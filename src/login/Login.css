@@ -1,0 +1,10 @@
+.form{
+    display: block;
+    align-items: center;
+    background-color: aqua;
+}
+.nme{
+    color: brown;
+    height: 30rem;
+    width: 20rem;
+}

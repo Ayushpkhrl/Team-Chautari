@@ -1,0 +1,42 @@
+header{
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    top: 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    background : var(--bg-color);
+    transition: 0.5s;
+    box-shadow: 0 8px 11px rgb(14 55 54 /15%);
+
+}
+.nav{
+    text-decoration: none;
+    display: flex;
+    column-gap: 2.5rem;
+    color: --var(--green-color);
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+img{
+    border-radius: 50%;
+    height:50px;
+    width: 50px;
+}
+.nav a:hover,.nav .home-active{
+    padding: 10px;
+    background:var(--green-color);
+    border-radius: 5rem;
+    color: var(--bg-color);
+    transition: background 0.5s color 0.5s;
+}
+.lhead{
+    display: flex;
+    align-items: center;
+
+}
