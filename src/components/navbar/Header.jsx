@@ -1,5 +1,13 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
+
+
 import './Header.css';
+import login from '../../login/Login';
+
+ const goToLogin = () => {
+    navigate('/login'); 
+  };
 const Header = (props) => {
   return (
     <>
@@ -22,9 +30,10 @@ const Header = (props) => {
 
 <div className="profile">
   <img src="/ayush.jpg" alt="profile" />
-  <span> HI !<tab></tab>{props.UserName} </span>
+  <span> HI !&nbsp;{props.UserName} </span>
   <i className="bx bx-caret-down"></i>
 </div>
+
 
   </header>
     </>
