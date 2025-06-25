@@ -1,6 +1,5 @@
 import React from 'react'
 import './Card.css';
-
 const Card = (props) => {
     return (
         <>
@@ -11,6 +10,7 @@ const Card = (props) => {
             <h2>City {props.city}</h2>
             <button>Submit</button>
         </div>
+
         </>
 )
 }
